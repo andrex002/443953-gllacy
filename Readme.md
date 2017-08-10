@@ -1,7 +1,6 @@
 # Личный проект «Глейси»
 
 * Студент: [Андрей Сергеев](https://up.htmlacademy.ru/htmlcss/18/user/443953).
-* Наставник: `Александр Кошара`.
 * Наставник: [Александр Кошара](https://htmlacademy.ru/profile/rednaxxxela).
 
 ---
