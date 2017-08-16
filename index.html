@@ -23,15 +23,16 @@
 			</ul>
 			</nav>
 
-			<ul class="user-navigation">
-				<li class="search">Поиск
+			<div class="user-navigation">
+				<section class="search">Поиск
 					<section class="hover-search">
 						<form action="https://echo.htmlacademy.ru" method="get">
 							<input type="search" name="search" placeholder="Что ищем?">
+							<button type="submit"></button>
 						</form>
 					</section>
-				</li>
-				<li class="login-link">Вход
+				</section>
+				<section class="login-link">Вход
 					<section class="hover-login">
 						<form class="login-form" method="post" action="https://echo.htmlacademy.ru">
 							<label>
@@ -47,19 +48,19 @@
 							</div>
 						</form>
 					</section>
-				</li>
-				<li class="basket">2 товара
+				</section>
+				<section class="basket">2 товара
 					<section class="ordering">
 						<table>
 							<tr>
-								<td><span class="modal-close">x</span></td>
+								<td><button class="modal-close" type="button">x</button></td>
 								<td><img src="img/ice_cream4-small" alt="Пломбир с апельсиновым джемом" width="33" height="33"></td>
 								<td>Пломбир с апельсиновым джемом</td>
 								<td>1.5 кг x <span>200 руб</span></td>
 								<td>300 руб</td>
 							</tr>
 							<tr>
-								<td><span class="modal-close">x</span></td>
+								<td><button class="modal-close" type="button">x</button></td>
 								<td><img src="img/ice_cream6-small" alt="Клубничный пломбир с присыпкой из белого шоколада" width="33" height="33"></td>
 								<td>Клубничный пломбир с присыпкой из белого шоколада</td>
 								<td>1.5 кг x <span>300 руб</span></td>
@@ -69,10 +70,10 @@
 								<td colspan="5">Итого: 750 руб.</td>
 							</tr>
 						</table>
-						<button class="button" type="submit">Оформить заказ</button>
+						<a class="button" href="#" ">Оформить заказ</a>
 					</section>
-				</li>
-			</ul>
+				</section>
+			</div>
 			
 			<div class="header-contacts">
 				с 10 до 20, ежедневно<br>
