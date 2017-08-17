@@ -14,7 +14,7 @@
 				<li class="page-current"><a class="multi-item" href="catalog.html">Каталог</a>
 					<ul class="nested-list">
 						<li><a class="new" href="#">Новинки</a></li>
-						<li><a href="catalog.html">Сливочное</a></li>
+						<li><a>Сливочное</a></li>
 						<li><a href="#">Щербеты</a></li>
 						<li><a href="#">Фруктовый лед</a></li>
 						<li><a href="#">Мелорин</a></li>
@@ -26,16 +26,19 @@
 			</nav>
 
 			<div class="user-navigation">
-				<section class="search">Поиск
+				<section class="search">
 					<section class="hover-search">
+						<a href="#">Поиск</a>
 						<form action="https://echo.htmlacademy.ru" method="get">
 							<input type="search" name="search" placeholder="Что ищем?">
 							<button type="submit"></button>
 						</form>
 					</section>
 				</section>
-				<section class="login-link">Вход
+				<section class="login-link">
+					<a href="#">Вход</a>
 					<section class="hover-login">
+
 						<form class="login-form" method="post" action="https://echo.htmlacademy.ru">
 							<label>
 								<input type="email" name="email" placeholder="Электронная почта">
@@ -51,7 +54,8 @@
 						</form>
 					</section>
 				</section>
-				<section class="basket">2 товара
+				<section class="basket">
+					<a href="#">2 товара</a>
 					<section class="ordering">
 						<table>
 							<tr>
@@ -72,7 +76,7 @@
 								<td colspan="5">Итого: 750 руб.</td>
 							</tr>
 						</table>
-						<a href="" class="button">Оформить заказ</a>
+						<a href="#" class="button">Оформить заказ</a>
 					</section>
 				</section>
 			</div>
@@ -100,7 +104,8 @@
 				</fieldset>
 				<fieldset>
 					<legend>Цена:</legend>
-					<input type="range" multiple="multiple" min="0" max="800" step="100" value="0,800">
+					<input type="number" name="value1" min="0" max="800" step="100"> <span>руб -</span>
+					<input type="number" name="value2" min="0" max="800" step="100"> <span>руб</span>
 				</fieldset>
 				<fieldset>
 					<legend>Жирность:</legend>
