@@ -11,7 +11,7 @@
 					<img src="img/logo.svg" width="154" height="64" alt="Логотип магазина Глейси">
 				</a>
 			<ul class="site-navigation">
-				<li class="page-current"><a class="multi-item" href="catalog.html">Каталог</a>
+				<li class="page-current"><a class="multi-item">Каталог</a>
 					<ul class="nested-list">
 						<li><a class="new" href="#">Новинки</a></li>
 						<li><a>Сливочное</a></li>
@@ -26,14 +26,14 @@
 			</nav>
 
 			<div class="user-navigation">
-				<section class="search">
-					<section class="hover-search">
-						<a href="#">Поиск</a>
-						<form action="https://echo.htmlacademy.ru" method="get">
-							<input type="search" name="search" placeholder="Что ищем?">
-							<button type="submit"></button>
-						</form>
-					</section>
+				<section class="search"></section>
+				<section class="hover-search">
+					<a href="#">Поиск</a>
+					<form action="https://echo.htmlacademy.ru" method="get">
+						<input type="search" name="search" placeholder="Что ищем?">
+						<button type="submit"></button>
+					</form>
+				
 				</section>
 				<section class="login-link">
 					<a href="#">Вход</a>
@@ -80,17 +80,18 @@
 					</section>
 				</section>
 			</div>
-			<ul class="breadscrumbs">
-				<li><a href="index.html">Главная</a></li>
-				<li><a href="catalog.html">Каталог</a></li>
-				<li class="breadscrumbs-current">Сливочное</li>
-			</ul>
+			
 			<div class="header-contacts">
 				<span>с 10 до 20, ежедневно</span>
 				<a href="tel:+78124502525">8 812 450-25-25</a>
 			</div>
 		</header>
 		<main class="container">
+			<ul class="breadscrumbs">
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="catalog.html">Каталог</a></li>
+				<li class="breadscrumbs-current">Сливочное</li>
+			</ul>
 			<h1>Сливочное мороженое</h1>
 			<form class="filter" method="get" action="https://echo.htmlacademy.ru>">
 				<fieldset>
@@ -104,8 +105,8 @@
 				</fieldset>
 				<fieldset>
 					<legend>Цена:</legend>
-					<input type="number" name="value1" min="0" max="800" step="100"> <span>руб -</span>
-					<input type="number" name="value2" min="0" max="800" step="100"> <span>руб</span>
+					<input type="text" name="value1" min="0" max="800" step="100"> <span>руб -</span>
+					<input type="text" name="value2" min="0" max="800" step="100"> <span>руб</span>
 				</fieldset>
 				<fieldset>
 					<legend>Жирность:</legend>
