@@ -1,0 +1,31 @@
+body {
+	font-size: 16px;
+	line-height: 22px;
+	color: #ffffff;
+	font-weight: 400;
+	font-family: Roboto;
+}
+
+h1.page-title {
+	font-size: 35px;
+	line-height: 41px;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: Roboto;
+}
+
+.title-feedback {
+	font-size: 24px;
+	line-height: 28px;
+	color: #323232;
+	font-weight: 600;
+	font-family: "Roboto Medium";
+}
+
+.banner-title {
+	font-size: 35px;
+	line-height: 41px;
+	color: #ffffff;
+	font-weight: 700;
+	font-family: "Roboto Bold";
+}
