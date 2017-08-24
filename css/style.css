@@ -3,15 +3,13 @@ body {
 	line-height: 22px;
 	color: #ffffff;
 	font-weight: 400;
-	font-family: Roboto;
+	font-family: "Roboto", "Arial", sans-serif;
 }
 
-h1.page-title {
+.page-title {
 	font-size: 35px;
 	line-height: 41px;
-	color: #ffffff;
-	font-weight: bold;
-	font-family: Roboto;
+	font-weight: 700;
 }
 
 .title-feedback {
@@ -19,13 +17,12 @@ h1.page-title {
 	line-height: 28px;
 	color: #323232;
 	font-weight: 600;
-	font-family: "Roboto Medium";
+	font-family: "Roboto Medium", "Arial", sans-serif;
 }
 
 .banner-title {
 	font-size: 35px;
 	line-height: 41px;
-	color: #ffffff;
 	font-weight: 700;
-	font-family: "Roboto Bold";
+	font-family: "Roboto Bold", "Arial Bold", sans-serif;
 }
