@@ -101,24 +101,18 @@
 					<li class="breadscrumbs-current">Сливочное</li>
 				</ul>
 				<h1 class="page-title">Сливочное мороженое</h1>
-				<form class="filter" method="get" action="https://echo.htmlacademy.ru">
+				<form class="filter" method="get" action="https://echo.htmlacademy.ru>">
 					<fieldset class="filter-sorting">
 						<legend>Сортировка:</legend>
-						<div class="select-wrapper">
-							<select name="sorting">
-								<option value="popular">по популярности</option>
-								<option value="cheap">сначала не дорогие</option>
-								<option value="expensive">сначала дорогие</option>
-								<option value="fat-content">по жирности</option>
-							</select>
-
-						</div>
+						<select name="sorting">
+							<option>по популярности</option>
+							<option>сначала не дорогие</option>
+							<option>сначала дорогие</option>
+							<option>по жирности</option>
+						</select>
 					</fieldset>
 					<fieldset  class="filter-price">
-						<legend>Цена: 
-							<input type="text" name="min-price" value="100"> руб. - 
-							<input type="text" name="max-price" value="500"> руб.
-						</legend>
+						<legend>Цена: 100 руб. &mdash; 500 руб.</legend>
 						<div class="range-controls customize-form">
 							<div class="scale">
 								<div class="complete-scale"></div>
@@ -127,26 +121,26 @@
 							<div class="switcher switcher-max"></div>
 						</div>
 					</fieldset>
-					<fieldset class="filter-fat">
+					<fieldset>
 						<legend>Жирность:</legend>
-						<div class="filter-bg">
+						<div class="filter-bg filter-fat">
 							<label class="radio-section">
-								<input type="radio" class="radio-indicator-input visually-hidden" name="fat-group" value="0%">
+								<input type="radio" class="radio-indicator-input visually-hidden" name="fat-group" value="0">
 								<span class="radio-indicator radio1"></span>
 								0%
 								</label>
 							<label class="radio-section">
-								<input type="radio" class="radio-indicator-input visually-hidden" name="fat-group" value="to-10%" checked="checked">
+								<input type="radio" class="radio-indicator-input visually-hidden" name="fat-group" value="to-10" checked="checked">
 								<span class="radio-indicator radio2"></span>
 							до 10%
 							</label>
 							<label class="radio-section">
-								<input type="radio" class="radio-indicator-input visually-hidden" name="fat-group" value="to-30%">
+								<input type="radio" class="radio-indicator-input visually-hidden" name="fat-group" value="to-30">
 								<span class="radio-indicator radio3"></span>
 								до 30%
 							</label>
 							<label class="radio-section">
-								<input type="radio" class="radio-indicator-input visually-hidden" name="fat-group" value="over-30%">
+								<input type="radio" class="radio-indicator-input visually-hidden" name="fat-group" value="over-30">
 								<span class="radio-indicator radio4"></span>
 								выше 30%
 							</label>

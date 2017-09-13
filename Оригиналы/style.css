@@ -61,6 +61,7 @@ img {
 	color: #323232;
 	font-weight: 500;
 	margin: 0;
+	
 }
 
 .banner-title {
@@ -69,7 +70,10 @@ img {
 	font-weight: 700;
 	margin: 0;
 	padding: 0;
+	
 }
+
+
 
 .site-navigation,
 .nested-list {
@@ -97,7 +101,6 @@ img {
 .site-navigation .nested-list li {
 	margin-bottom: 3px;
 }
-
 .site-navigation .nested-list a {
 	display: block;
 	padding: 7px 0px 7px 14px;
@@ -112,6 +115,7 @@ img {
 	font-weight: 700;
 	text-decoration: underline;
 	text-decoration-color: rgba(255, 255, 255, 0.2);
+	
 }
 
 .site-navigation .navigation-item:hover,
@@ -122,7 +126,6 @@ img {
 	padding: 7px 14px;
 	margin: 0;
 }
-
 .site-navigation li:first-child:hover .nested-list {
 	display: block;
 }
@@ -138,6 +141,7 @@ img {
 .site-navigation .navigation-item:active {
 	background-color: #ededed;
 	box-shadow: inset 0 2px 1px 0px #696969;
+
 }
 
 .nested-list,
@@ -157,11 +161,13 @@ img {
 }
 
 .nested-list li:hover,
-.nested-list li:focus {
+.nested-list li:focus
+ {
 	background-color: #fbded7;
 }
 
-.nested-list li:active {
+.nested-list li:active
+ {
 	background-color: #f6b5a5;
 }
 
@@ -170,7 +176,7 @@ img {
 	background-color: #d07058;
 } 
 
-.hover-search input {
+.hover-search input{
 	background-color: #ffffff;
 	font-size: 14px;
 	line-height: 24px;
@@ -335,7 +341,6 @@ body>input[type="radio"] {
 .range .price span {
 	font-size: 30px;
 }
-
 .popular h3,
 .range h3,
 .popular section>a {
@@ -367,7 +372,7 @@ body>input[type="radio"] {
 
 .quick-view,
 .subscribe button,
-.contacts>a {
+.contacts>a{
 	font-size: 18px;
 	line-height: 24px;
 	color: #fefefe;
@@ -715,9 +720,9 @@ select {
 }
 
 .filter-bg {
-	margin-top: 6px;
-	margin-bottom: 16px;
-	padding: 9px 0 9px 13px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	padding: 10px 0 10px 13px;
 	font-size: 16px;
 	line-height: 18px;
 	border-radius: 17px;
@@ -741,11 +746,6 @@ select {
 .filter-price input {
 	background: none;
 	border: none;
-	width: 26px;
-	font-size: 14px;
-	line-height: 16px;
-	color: #ffffff;
-	font-weight: 500;
 }
 
 .button2 {
@@ -916,7 +916,7 @@ a.pagination-current:hover,
 	border: 0;
 }
 
-.slider {
+.slider{
 	position: relative;
 	padding-top: 275px;
 	text-align: center;
@@ -949,7 +949,7 @@ a.pagination-current:hover,
 
 .banner1 .button,
 .banner2 .button {
-	align-self: flex-end;
+	margin-left: auto;
 	padding: 11px 22px;
 	border-radius: 23px;
 }
@@ -1019,6 +1019,7 @@ a.pagination-current:hover,
 }
 
 .popular section>a {
+
 	margin-bottom: 21px;
 }
 
@@ -1357,11 +1358,11 @@ footer .copyright {
 }
 
 .user-navigation .basket .cart-full {
-	padding: 8px 15px 8px 44px;
+	padding: 8px 16px 8px 44px;
 	color: #323232;
 	background: #f7f6f3 url(../img/basket-red.svg) no-repeat 16px 6px;
 	border-radius: 16px;
-}
+	}
 
 .ordering {
 	position: absolute;
@@ -1470,7 +1471,7 @@ footer .copyright {
 .range-controls {
 	position: relative;
 	margin: auto;
-	margin-top: 4px;
+	margin-top: 5px;
 	border-radius: 20px;
 	width: 176px;
 	padding-top: 17px;
@@ -1595,7 +1596,8 @@ footer .copyright {
 	left: 0px;
 }
 
-.filter-additive .checkbox3 {
+.filter-additive .checkbox3
+ {
 	left: -2px;
 }
 
@@ -1609,85 +1611,4 @@ footer .copyright {
 
 .checkbox-indicator-input:checked ~ .checkbox-indicator {
 	background-image: url("../img/checkbox-on.svg");
-}
-
-.filter {
-	font-size: 0;
-}
-
-fieldset {
-	margin: 0;
-	padding: 0;
-	border: none;
-}
-
-.filter .filter-sorting {
-	margin-right: 0px;
-	width: 193px;
-}
-
-.filter .filter-sorting legend {
-	margin-left: 16px;
-}
-
-.filter-sorting .select-wrapper {
-	position: relative;
-	border-radius: 17px;
-}
-
-.filter select {
-	padding: 0;
-	height: 36px;
-	padding-left: 12px;
-	padding-right: 12px;
-}
-
-.filter .filter-price {
-	width: 218px;
-	margin-left: -4px;
-}
-
-.filter .filter-price legend {
-	margin-left: 16px;
-}
-
-.filter-price .range-controls {
-	padding-top: 16px;
-	padding-bottom: 16px;
-}
-
-.filter .filter-fat {
-	width: 415px;
-	margin-right: 1px;
-}
-
-.filter .filter-fat legend {
-	margin-left: 13px;
-}
-
-.filter-fat .filter-bg {
-	padding-top: 9px;
-	padding-bottom: 9px;
-	padding-left: 12px;
-	padding-right: 12px;
-}
-
-.filter .radio-section:last-child {
-	margin-right: 0;
-}
-
-.filter .filter-additive {
-	width: 702px;
-}
-
-.filter .filter-additive legend {
-	margin-left: 15px;
-}
-
-.filter .filter-additive label:last-child {
-	margin-right: 0;
-}
-
-.filter button {
-	font-size: 16px;
 }
