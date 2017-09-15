@@ -34,11 +34,11 @@ img {
 }
 
 .site-wrapper::before {
-	background-image: url("slide-2.png");
+	background-image: url("../img/slider-img2.png");
 }
 
 .site-wrapper::after {
-	background-image: url("slide-3.png");
+	background-image: url("../img/slider-img3.png");
 }
 
 .content-wrapper {
@@ -283,6 +283,7 @@ body>input[type="radio"] {
 }
 
 .banner1 {
+	background-color: #a1001c;
 	background-image: url("../img/crimson-bg.jpg");
 	background-position: 0 0;
 	background-repeat: no-repeat;
@@ -292,6 +293,7 @@ body>input[type="radio"] {
 }
 
 .banner2 {
+	background-color: #7a5545;
 	background-image: url("../img/choco-bg.jpg");
 	background-position: 0 0;
 	background-repeat: no-repeat;
@@ -378,6 +380,7 @@ body>input[type="radio"] {
 .features {
 	width: 1104px;
 	height: 260px;
+	background-color: #ece1c7;
 	background-image: url(../img/waffle-bg.jpg);
 	border-radius: 15px;
 	padding: 23px 21px;
@@ -433,6 +436,7 @@ body>input[type="radio"] {
 .news {
 	width: 560px;
 	height: 220px;
+	background-color: #ffffff;
 	background-image: url("../img/strawberry-bg.jpg");
 	background-position: 0 0;
 	background-repeat: no-repeat;
@@ -478,11 +482,11 @@ body>input[type="radio"] {
 }
 
 .subscribe {
-	width: 510px;
-	height: 154px;
+	width: 508px;
+	height: 152px;
 	background-color: #f8f7f4;
 	border-radius: 15px;
-	padding: 28px 22px;
+	padding: 29px 21px;
 }
 
 .subscribe p {
@@ -541,8 +545,8 @@ body>input[type="radio"] {
 
 .map .contacts>a {
 	padding: 10px 27px;
-    border-radius: 22px;
-    margin-top: 25px;
+	border-radius: 22px;
+	margin-top: 25px;
 }
 
 .contacts .contacts-adress {
@@ -610,7 +614,7 @@ body>input[type="radio"] {
 	left: 50%;
 	z-index: 10;
 	margin-top: -205px;
-    margin-left: -237px;
+	margin-left: -237px;
 }
 
 .modal-feedback p {
@@ -663,7 +667,6 @@ body>input[type="radio"] {
 	padding-top: 15px;
 	border-top: 1px solid #cacac7;
 }
-
 
 .breadscrumbs {
 	list-style: none;
